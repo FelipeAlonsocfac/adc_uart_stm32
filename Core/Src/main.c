@@ -115,7 +115,7 @@ int main(void)
 	  //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, GPIO_PIN_RESET);
 
 	  //Convert to string and print
-	  sprintf(msg,"VALORaaa: %hu\r\n",POT);
+	  sprintf(msg,"VALORaaaaa: %hu\r\n",POT);
 	  HAL_UART_Transmit(&huart3, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
 
 
